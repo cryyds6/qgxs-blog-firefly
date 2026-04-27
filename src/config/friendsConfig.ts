@@ -58,7 +58,7 @@ export const friendsConfig: FriendLink[] = [
 	weight: 7,
 	enabled: true,
     },
-    {
+    /*{
 	title: "yuyuの二次元技术小站",
 	imgurl: "https://yuyu09.com/wp-content/uploads/2026/02/Image_1770562720489_783.png",
 	desc: "专注专业建站教程资源分享、趣味脚本开发，从0到1搞定个人网站搭建~",
@@ -66,7 +66,7 @@ export const friendsConfig: FriendLink[] = [
 	tags: ["博客"],
 	weight: 6,
 	enabled: true,
-    },
+    },*/
     {
 	title: "猫小诗の小站",
 	imgurl: "https://mcddos.top/logo.jpg",
@@ -103,7 +103,7 @@ export const friendsConfig: FriendLink[] = [
 	weight: 2,
 	enabled: true,
     },
-    {
+    /*{
 	title: "烤鸭の雪屋",
 	imgurl: "https://www.yadelei.top/images/avatar.png",
 	desc: "美味烤鸭の雪屋，记录烤鸭的日常趣事",
@@ -111,7 +111,7 @@ export const friendsConfig: FriendLink[] = [
 	tags: ["博客"],
 	weight: 1,
 	enabled: true,
-    },
+    },*/
     {
 	title: "凉白导航",
 	imgurl: "https://imgbed.20210701.xyz/file/图标/1771431908690_769306e305725267e1c50d726311ba61.jpg",
