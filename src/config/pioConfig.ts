@@ -85,7 +85,7 @@ export const spineModelConfig: SpineModelConfig = {
 // Live2D 看板娘配置
 export const live2dModelConfig: Live2DModelConfig = {
 	// Live2D 看板娘开关
-	enable: false,
+	enable: true,
 	// Live2D模型配置
 	model: {
 		// Live2D模型文件路径
@@ -122,6 +122,14 @@ export const live2dModelConfig: Live2DModelConfig = {
 			"今天天气真不错呢！",
 			"要不要一起玩游戏？",
 			"记得按时休息哦！",
+			"你好呀！我是流萤~",
+			"今天也要加油哦！✨",
+			"想要一起去看星空吗？🌟",
+			"记得要好好休息呢~",
+			"有什么想对我说的吗？💫",
+			"让我们一起探索未知的世界吧！🚀",
+			"每一颗星星都有自己的故事~⭐",
+			"希望能带给你温暖和快乐！💖",
 		],
 		// 随机显示的文字消息显示时间（毫秒）
 		messageDisplayTime: 3000,

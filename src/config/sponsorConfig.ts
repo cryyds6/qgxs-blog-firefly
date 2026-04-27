@@ -39,11 +39,11 @@ export const sponsorConfig: SponsorConfig = {
 			description: "使用 微信 扫码赞助",
 			enabled: true,
 		},
-		{
+		/*{
 			name: "ko-fi",
 			icon: "simple-icons:kofi",
 			qrCode: "",
-			link: "https://ko-fi.com/cuteleaf",
+			link: "https://ko-fi.com",
 			description: "Buy a Coffee for Firefly",
 			enabled: true,
 		},
@@ -51,10 +51,10 @@ export const sponsorConfig: SponsorConfig = {
 			name: "爱发电",
 			icon: "simple-icons:afdian",
 			qrCode: "",
-			link: "https://ifdian.net/a/cuteleaf",
+			link: "https://ifdian.net",
 			description: "通过 爱发电 进行赞助",
 			enabled: true,
-		},
+		},*/
 	],
 
 	// 赞助者列表（可选）
