@@ -82,6 +82,12 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				external: true,
 				icon: "material-symbols:monitoring-rounded",
 			},
+            {
+				name: "SBTI人格测试",
+				url: "https://sbti-test-3n1.pages.dev/",
+				external: true,
+				icon: "material-symbols:monitoring-rounded",
+			},
 		],
 	});
 
