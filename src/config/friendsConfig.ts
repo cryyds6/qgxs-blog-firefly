@@ -175,6 +175,15 @@ export const friendsConfig: FriendLink[] = [
 	weight: -6,
 	enabled: true,
     },
+    {
+	title: "Moca",
+	imgurl: "https://blog.gonelove.de/avatar.webp",
+	desc: "Gone_Love 的个人博客",
+	siteurl: "https://blog.gonelove.de/",
+	tags: ["博客"],
+	weight: -7,
+	enabled: true,
+    },
 ];
 
 // 获取启用的友链并进行排序
