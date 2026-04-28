@@ -193,6 +193,15 @@ export const friendsConfig: FriendLink[] = [
 	weight: -6,
 	enabled: true,
     },
+    {
+	title: "他说",
+	imgurl: "https://090909.top/assets/images/avatar.webp",
+	desc: "梁栋烨的博客网站。",
+	siteurl: "https://090909.top/",
+	tags: ["博客"],
+	weight: -6,
+	enabled: true,
+    },
 ];
 
 // 获取启用的友链并进行排序
