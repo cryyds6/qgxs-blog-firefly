@@ -45,8 +45,7 @@ draft: false
 ### 手动部署
 
 1. 下载压缩包`BinNav_Public.zip`
-   https://wwbtv.lanzout.com/b0pnf424j
-   密码:am09
+   https://wwbtv.lanzout.com/b0pnf424j 密码: am09
 2. 👉 创建一个项目到你自己账号下,解压出压缩包上传项目
 3. 登录EdgeOne，创建项目选择你创建后的仓库
 4. 添加环境变量并部署
