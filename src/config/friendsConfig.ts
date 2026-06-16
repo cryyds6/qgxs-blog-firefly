@@ -202,6 +202,15 @@ export const friendsConfig: FriendLink[] = [
 	weight: -6,
 	enabled: true,
     },
+    {
+	title: "MaxLHy's Blog",
+	imgurl: "https://maxlhy0424.is-a.dev/images/favicon.webp",
+	desc: "Where All Miracle Begins.",
+	siteurl: "https://maxlhy0424.is-a.dev/",
+	tags: ["博客"],
+	weight: -7,
+	enabled: true,
+    },
 ];
 
 // 获取启用的友链并进行排序
