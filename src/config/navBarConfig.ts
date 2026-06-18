@@ -78,7 +78,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			},
 			{
 				name: "监控",
-				url: "https://qgxsuptime.zeabur.app/status/qgxs",
+				url: "https://stats.uptimerobot.com/flUhOl2Xrq",
 				external: true,
 				icon: "material-symbols:monitoring-rounded",
 			},
