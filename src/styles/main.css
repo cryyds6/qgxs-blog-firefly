@@ -17,6 +17,7 @@
   --font-sans:
     'Roboto', 'sans-serif', ui-sans-serif, system-ui, sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --color-accent: #00A3FF;
 }
 
 /* 自定义工具类 - Tailwind v4 使用 @utility 定义 */
@@ -201,18 +202,18 @@ html {
     }
     
     .card-base {
-        @apply rounded-(--radius-large) overflow-hidden bg-(--card-bg) transition-colors duration-150;
+        @apply rounded-2xl overflow-hidden bg-(--card-bg) transition-all duration-300 ease-out border border-zinc-100 dark:border-zinc-800/60 shadow-sm hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/5 dark:hover:border-zinc-700;
     }
     .card-base-transparent {
-        @apply rounded-(--radius-large) overflow-hidden bg-(--card-bg-transparent) transition-colors duration-150;
+        @apply rounded-2xl overflow-hidden bg-(--card-bg-transparent) transition-all duration-300 ease-out border border-zinc-100 dark:border-zinc-800/60 shadow-sm hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-500/5 dark:hover:border-zinc-700;
     }
 
     /* 开启边框和阴影效果时的样式 */
     .enable-card-border .card-base {
-        @apply transition-all duration-300 border border-(--line-divider) shadow-xs;
+        @apply transition-all duration-300 border border-zinc-100 dark:border-zinc-800/60 shadow-sm;
     }
     .enable-card-border .card-base-transparent {
-        @apply transition-all duration-300 border border-(--line-divider) shadow-xs;
+        @apply transition-all duration-300 border border-zinc-100 dark:border-zinc-800/60 shadow-sm;
     }
 
     /* 导航栏样式适配 */
@@ -256,7 +257,7 @@ html {
         @apply transition-colors duration-150;
     }
     .card-shadow {
-        @apply drop-shadow-[0_2px_4px_rgba(0,0,0,0.005)]
+        @apply drop-shadow-[0_1px_2px_rgba(0,0,0,0.04)]
     }
     .link {
         @apply transition-colors duration-150 rounded-md p-1 -m-1 expand-animation;
@@ -325,19 +326,19 @@ html {
     }
 
     .text-90 {
-        @apply text-black/90 dark:text-white/90
+        @apply text-zinc-900 dark:text-zinc-100
     }
     .text-75 {
-        @apply text-black/75 dark:text-white/75
+        @apply text-zinc-700 dark:text-zinc-300
     }
     .text-50 {
-        @apply text-black/50 dark:text-white/50
+        @apply text-zinc-500 dark:text-zinc-400
     }
     .text-30 {
-        @apply text-black/30 dark:text-white/30
+        @apply text-zinc-400 dark:text-zinc-500
     }
     .text-25 {
-        @apply text-black/25 dark:text-white/25
+        @apply text-zinc-300 dark:text-zinc-600
     }
 
     /* 下拉菜单样式 */

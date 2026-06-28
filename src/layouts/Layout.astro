@@ -95,7 +95,7 @@ const siteLang = lang.replace("_", "-");
 ---
 
 <!doctype html>
-<html lang={siteLang} class="bg-(--page-bg) text-[14px] md:text-[16px]" data-wallpaper-mode={backgroundWallpaper.mode}>
+<html lang={siteLang} class="bg-(--page-bg) text-[14px] md:text-[16px] transition-colors duration-300" data-wallpaper-mode={backgroundWallpaper.mode}>
   <head>
     <meta charset="UTF-8" />
     {siteConfig.analytics?.googleAnalyticsId && (
@@ -513,7 +513,7 @@ const siteLang = lang.replace("_", "-");
     <FontManager />
   </head>
   <body
-    class="min-h-screen"
+    class="min-h-screen font-sans"
     class:list={[
       {
         "lg:is-home": isHomePageCheck,

@@ -79,7 +79,7 @@ const descriptionText = description || remarkPluginFrontmatter.excerpt || "";
   <div
     class:list={[
       "post-card-content",
-      "pl-4 md:pl-9 pr-4 md:pr-2 pt-4 md:pt-7 pb-4 md:pb-7 relative flex flex-col h-full",
+      "p-6 md:p-8 relative flex flex-col h-full",
       {
         "w-full md:w-[calc(100%-52px-12px)]": !hasCover,
         "w-full md:w-[calc(100%-var(--coverWidth)-1.5rem)]": hasCover,
@@ -89,9 +89,9 @@ const descriptionText = description || remarkPluginFrontmatter.excerpt || "";
     <a
       href={url}
       class="post-card-title transition group w-full block font-bold mb-3 text-3xl text-90
-        hover:text-(--primary) dark:hover:text-(--primary)
+        hover:text-(--accent) dark:hover:text-(--accent)
         active:text-(--title-active) dark:active:text-(--title-active)
-        before:w-1 before:h-5 before:rounded-md before:bg-(--primary)
+        before:w-1 before:h-5 before:rounded-md before:bg-(--accent)
         before:absolute before:top-[35px] before:left-[18px] before:hidden md:before:block"
     >
       {title}
@@ -138,7 +138,7 @@ const descriptionText = description || remarkPluginFrontmatter.excerpt || "";
               <a
                 href={getTagUrl(tag)}
                 aria-label={`View all posts with the ${tag.trim()} tag`}
-                class="btn-regular h-6 text-xs px-2 py-1 rounded-md
+                class="btn-regular h-6 text-xs px-2 py-1 rounded-md text-sky-500
                          transition-all duration-200 hover:scale-105 active:scale-95"
               >
                 #{tag.trim()}

@@ -170,12 +170,12 @@ const mobileNonHomeBannerClass = !isHomePageCheck ? "mobile-hide-banner" : "";
 const mainPanelTop =
 	isBannerMode && isBackgroundEnabled
 		? `calc(${BANNER_HEIGHT}vh - ${MAIN_PANEL_OVERLAPS_BANNER_HEIGHT}rem)`
-		: "5.5rem";
+		: "5rem";
 
 // 当banner模式被禁用时，主内容区域应该始终从顶栏下面开始
-// 非首页在小于1024px时会通过 mobile-main-no-banner CSS类覆盖top值为5.5rem
+// 非首页在小于1024px时会通过 mobile-main-no-banner CSS类覆盖top值为5rem
 const finalMainPanelTop =
-	isBannerMode && isBackgroundEnabled ? mainPanelTop : "5.5rem";
+	isBannerMode && isBackgroundEnabled ? mainPanelTop : "5rem";
 
 // 获取响应式侧边栏配置
 const sidebarConfig = getResponsiveSidebarConfig();
