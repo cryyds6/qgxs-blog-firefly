@@ -211,6 +211,15 @@ export const friendsConfig: FriendLink[] = [
 	weight: -7,
 	enabled: true,
     },
+    {
+	title: "风中的思绪",
+	imgurl: "https://blog.windstart.top/assets/home/xiaologo.webp",
+	desc: "风中的思绪，梦里的足迹",
+	siteurl: "https://blog.windstart.top/",
+	tags: ["博客"],
+	weight: -6,
+	enabled: true,
+    },
 ];
 
 // 获取启用的友链并进行排序
