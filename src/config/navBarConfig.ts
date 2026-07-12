@@ -78,7 +78,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			},
 			{
 				name: "监控",
-				url: "https://stats.uptimerobot.com/flUhOl2Xrq",
+				url: "https://status.20210701.xyz",
 				external: true,
 				icon: "material-symbols:monitoring-rounded",
 			},
