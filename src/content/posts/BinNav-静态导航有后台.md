@@ -4,7 +4,7 @@ published: 2026-02-19
 description: 一个现代化的网站导航页面，支持可视化管理后台、智能图标获取、拖拽排序和自动部署更新，可部署至EdgeOne Pages无需服务器
 image: https://imgbed.20210701.xyz/file/博客/1771513899287_image.png
 tags: ["导航页", "EdgeOne", "部署", "静态应用"]
-category: qgxs
+category: 部署教程
 draft: false
 ---
 

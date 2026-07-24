@@ -3,7 +3,8 @@ title: 使用AI提示词，让AI快速修改符合规范的文章
 published: 2026-01-05
 description: 介绍如何利用定制的AI提示词，快速将文章草稿处理成符合Mizuki Astro博客规范的Markdown文档。
 tags: ["技术", "效率", "AI", "博客"]
-category: qgxs
+category: 资源推荐
+pinned: true
 draft: false
 ---
 
@@ -45,7 +46,7 @@ draft: false
    description: 这里是自动生成的文章简介
    image: 从文章的图片链接挑选最靠前的或者最图片识别后合适的，没有图片链接填写未设置
    tags: ["自动生成标签1", "自动生成标签2"]
-   category: 这里按照文章类型从三个分类中挑选一个填写1生活日常2技术折腾3感悟杂记 只写四个字其他不带
+   category: 这里按照文章类型从4个分类中挑选一个填写1资源推荐2部署教程3生活日常4感悟杂记 只写四个字其他不带
    draft: false
    ---
    # 此处标题必须与上方title字段完全一致

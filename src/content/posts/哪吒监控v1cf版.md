@@ -4,7 +4,7 @@ published: 2026-03-03
 description: 详细介绍如何通过Docker部署哪吒监控v1的CloudFlare Tunnel版面板端，实现无公网IP的服务器监控运维，包含准备工作、部署步骤及相关配置。
 image: https://imgbed.20210701.xyz/file/博客/1772525183371_mark.via_20260303160610.webp
 tags: ["服务器监控", "Docker部署", "CloudFlare", "哪吒监控"]
-category: qgxs
+category: 部署教程
 draft: false
 ---
 # 使用Docker部署哪吒监控v1 CloudFlare Tunnel版面板端

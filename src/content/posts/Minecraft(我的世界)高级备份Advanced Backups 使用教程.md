@@ -4,7 +4,7 @@ published: 2026-02-21
 description: 详细讲解Minecraft高级备份模组Advanced Backups的配置翻译、命令说明与三种备份类型的回档教程
 image: https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/PDP-Hero_OV-Standard_16x9.jpg
 tags: ["Minecraft", "服务端", "备份教程", "模组"]
-category: qgxs
+category: 部署教程
 draft: false
 ---
 # Minecraft高级备份Advanced Backups 使用教程

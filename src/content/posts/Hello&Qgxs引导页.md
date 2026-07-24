@@ -3,7 +3,7 @@ title: Hello&Qgxs引导页
 published: 2025-01-31
 description: Hello&Qgxs引导页,托管Cloudflar
 tags: ["分享"]
-category: qgxs
+category: 资源推荐
 draft: false
 ---
 Hello&Qgxs引导页

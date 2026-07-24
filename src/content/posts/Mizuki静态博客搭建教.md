@@ -4,7 +4,7 @@ published: 2026-02-06
 description: 一份从零开始，涵盖本地配置到部署上线的完整Mizuki静态博客搭建指南。
 image: https://imgbed.20210701.xyz/file/博客/1770909300944_image.png
 tags: ["教程", "博客", "Mizuki", "技术"]
-category: qgxs
+category: 部署教程
 draft: false
 ---
 

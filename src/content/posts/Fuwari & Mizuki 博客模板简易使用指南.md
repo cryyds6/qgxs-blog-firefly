@@ -3,7 +3,7 @@ title: Fuwari & Mizuki 博客模板简易使用指南
 published: 2025-01-30
 description: 本博客模板的使用方法
 tags: ["博客搭建"]
-category: qgxs
+category: 资源推荐
 draft: false
 ---
 

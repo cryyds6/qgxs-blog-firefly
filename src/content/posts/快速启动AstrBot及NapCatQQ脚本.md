@@ -3,7 +3,7 @@ title: 快速启动AstrBot及NapCatQQ脚本
 published: 2025-08-30
 description: 一个AstrBot在Termux容器部署时快速启动AstrBot及NapCatQQ脚本
 tags: ["分享"]
-category: qgxs
+category: 资源推荐
 draft: false
 ---
 

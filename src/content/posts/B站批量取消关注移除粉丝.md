@@ -3,7 +3,7 @@ title: B站批量取消关注移除粉丝
 published: 2025-01-31
 description: B站批量取消关注移除粉丝
 tags: ["分享"]
-category: qgxs
+category: 资源推荐
 draft: false
 ---
 
