@@ -1,0 +1,310 @@
+media:
+  input: public/uploads
+  output: /uploads
+
+content:
+  - name: posts
+    label: 文章
+    type: collection
+    path: src/content/posts
+    format: md
+    fields:
+      - name: title
+        label: 标题
+        type: string
+        required: true
+      - name: published
+        label: 发布日期
+        type: datetime
+        required: true
+      - name: updated
+        label: 更新日期
+        type: datetime
+      - name: description
+        label: 摘要
+        type: text
+      - name: image
+        label: 封面图
+        type: image
+      - name: tags
+        label: 标签
+        type: list
+      - name: category
+        label: 分类
+        type: string
+      - name: draft
+        label: 草稿
+        type: boolean
+      - name: lang
+        label: 语言
+        type: string
+      - name: pinned
+        label: 置顶
+        type: boolean
+      - name: comment
+        label: 允许评论
+        type: boolean
+      - name: author
+        label: 作者
+        type: string
+      - name: sourceLink
+        label: 来源链接
+        type: string
+      - name: licenseName
+        label: 许可证名称
+        type: string
+      - name: licenseUrl
+        label: 许可证链接
+        type: string
+      - name: password
+        label: 密码
+        type: string
+      - name: passwordHint
+        label: 密码提示
+        type: string
+      - name: body
+        label: 正文
+        type: rich-text
+        required: true
+
+  - name: friends
+    label: 友情链接
+    type: collection
+    path: src/content/friends
+    format: md
+    fields:
+      - name: title
+        label: 名称
+        type: string
+        required: true
+      - name: imgurl
+        label: 图标地址
+        type: string
+      - name: desc
+        label: 描述
+        type: text
+      - name: siteurl
+        label: 站点地址
+        type: string
+        required: true
+      - name: tags
+        label: 标签
+        type: list
+      - name: weight
+        label: 权重
+        type: number
+      - name: enabled
+        label: 是否启用
+        type: boolean
+      - name: body
+        label: 备注
+        type: rich-text
+
+  - name: profile
+    label: 个人资料
+    type: file
+    path: src/content/profile.json
+    format: json
+    fields:
+      - name: avatar
+        label: 头像地址
+        type: string
+      - name: name
+        label: 名称
+        type: string
+        required: true
+      - name: bio
+        label: 个性签名
+        type: text
+      - name: links
+        label: 社交链接
+        type: list
+
+  - name: announcement
+    label: 公告
+    type: file
+    path: src/content/announcement.json
+    format: json
+    fields:
+      - name: title
+        label: 公告标题
+        type: string
+      - name: content
+        label: 公告内容
+        type: text
+      - name: closable
+        label: 可关闭
+        type: boolean
+      - name: link
+        label: 链接配置
+        type: object
+
+  - name: sponsor
+    label: 赞助页
+    type: file
+    path: src/content/sponsor.json
+    format: json
+    fields:
+      - name: title
+        label: 页面标题
+        type: string
+      - name: description
+        label: 页面描述
+        type: text
+      - name: usage
+        label: 赞助用途说明
+        type: text
+      - name: showSponsorsList
+        label: 显示赞助者列表
+        type: boolean
+      - name: showComment
+        label: 显示评论区
+        type: boolean
+      - name: showButtonInPost
+        label: 文章页显示赞助按钮
+        type: boolean
+      - name: methods
+        label: 赞助方式
+        type: list
+
+  - name: gallery
+    label: 相册页
+    type: file
+    path: src/content/gallery.json
+    format: json
+    fields:
+      - name: albums
+        label: 相册列表
+        type: list
+      - name: columnWidth
+        label: 最小列宽
+        type: number
+
+  - name: guestbook
+    label: 留言板
+    type: file
+    path: src/content/guestbook.json
+    format: json
+    fields:
+      - name: title
+        label: 页面标题
+        type: string
+      - name: description
+        label: 页面描述
+        type: text
+      - name: showComment
+        label: 启用留言评论
+        type: boolean
+
+  - name: navbar
+    label: 导航栏
+    type: file
+    path: src/content/navbar.json
+    format: json
+    fields:
+      - name: links
+        label: 导航链接
+        type: list
+      - name: showSearch
+        label: 显示搜索
+        type: boolean
+
+  - name: footer
+    label: 页脚
+    type: file
+    path: src/content/footer.json
+    format: json
+    fields:
+      - name: enable
+        label: 启用页脚
+        type: boolean
+
+  - name: music
+    label: 音乐播放器
+    type: file
+    path: src/content/music.json
+    format: json
+    fields:
+      - name: showInNavbar
+        label: 导航栏显示入口
+        type: boolean
+      - name: mode
+        label: 播放模式
+        type: string
+      - name: volume
+        label: 默认音量
+        type: number
+      - name: playMode
+        label: 播放模式
+        type: string
+      - name: showLyrics
+        label: 显示歌词
+        type: boolean
+
+  - name: sidebar
+    label: 侧边栏
+    type: file
+    path: src/content/sidebar.json
+    format: json
+    fields:
+      - name: enable
+        label: 启用侧边栏
+        type: boolean
+      - name: position
+        label: 侧边栏位置
+        type: string
+      - name: tabletSidebar
+        label: 平板侧边栏位置
+        type: string
+      - name: leftComponents
+        label: 左侧组件
+        type: list
+      - name: rightComponents
+        label: 右侧组件
+        type: list
+
+  - name: wallpaper
+    label: 背景壁纸
+    type: file
+    path: src/content/wallpaper.json
+    format: json
+    fields:
+      - name: mode
+        label: 壁纸模式
+        type: string
+      - name: switchable
+        label: 可切换
+        type: boolean
+      - name: src
+        label: 图片配置
+        type: object
+      - name: banner
+        label: 横幅配置
+        type: object
+
+  - name: site
+    label: 站点设置
+    type: file
+    path: src/content/site.json
+    format: json
+    fields:
+      - name: title
+        label: 站点标题
+        type: string
+        required: true
+      - name: subtitle
+        label: 站点副标题
+        type: string
+      - name: site_url
+        label: 站点地址
+        type: string
+      - name: description
+        label: 站点描述
+        type: text
+      - name: keywords
+        label: 关键词
+        type: list
+
+settings:
+  mode: merge
+  commitMessage: "Pages CMS: {{action}}"
